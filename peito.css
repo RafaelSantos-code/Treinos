@@ -1,0 +1,35 @@
+body {
+    background: radial-gradient(circle, rgba(80,59,68,1) 0%, rgba(38,54,74,1) 100%);
+    display: flex;
+    justify-content: center; 
+    align-items: start; 
+    height: 100vh; 
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.box1, .box2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px;
+    width: 80%; /* Define uma largura para o contêiner */
+}
+
+.sup, .Halt, .fle, .cru {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 450px;
+    width: 250px;
+    background-color: rgb(6, 42, 52);
+}
+
+.sup img, .Halt img, .cru img, .fle img{
+    height: 225px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
